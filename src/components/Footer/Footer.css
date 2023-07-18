@@ -1,0 +1,25 @@
+.footer-container {
+    background-color: #333;
+    color: #fff;
+    padding: 10px; /* Reducir el padding */
+    text-align: center;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    z-index: 9999;
+  }
+  
+  .footer-container h2 {
+    font-size: 20px; /* Reducir el tamaño de fuente */
+    font-weight: bold;
+  }
+  
+  .footer-container h2 span {
+    color: #ff8000;
+  }
+  
+  .footer-container p {
+    font-size: 14px; /* Reducir el tamaño de fuente */
+    margin-bottom: 5px; /* Reducir el margen inferior */
+  }
