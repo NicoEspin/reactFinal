@@ -1,9 +1,6 @@
 import './ItemDetailPage.css'
 import React, { useState, useEffect } from 'react';
 //material ui
-import AddIcon from '@mui/icons-material/Add';
-import RemoveIcon from '@mui/icons-material/Remove';
-
 import AddShoppingCartIcon from '@mui/icons-material/AddShoppingCart';
 //Firebase
 import { collection, query, getDocs, where, documentId } from "firebase/firestore"
@@ -11,7 +8,7 @@ import { db } from '../../Firebase/FirebaseConfig'
 //react router dom
 import { useParams } from 'react-router-dom'
 
-export const ItemDetailPage = ({ addToCart, setCartItems }) => {
+export const ItemDetailPage = ({ addToCart }) => {
   const { id } = useParams()
   const [productData, setProductData] = useState([])
 

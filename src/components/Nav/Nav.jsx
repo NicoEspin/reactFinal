@@ -1,9 +1,10 @@
 import './Nav.css'
-import '../CartWidget/CartWidget'
 //components
 import { CartWidget } from '../CartWidget/CartWidget.jsx';
 //react router dom
 import { Link } from 'react-router-dom';
+//material
+
 
 export function Nav( {cartItems}) {
     return (

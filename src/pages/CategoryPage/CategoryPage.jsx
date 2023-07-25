@@ -9,7 +9,7 @@ import AddShoppingCartIcon from '@mui/icons-material/AddShoppingCart';
 //components
 import { CategoryFilter } from "../../components/CategoryFilter/CategoryFilter";
 
-export const CategoryPage = ({addToCart}) => {
+export const CategoryPage = ({ addToCart }) => {
     const { category } = useParams()
     const [productData, setProductData] = useState([])
     useEffect(() => {
@@ -27,13 +27,13 @@ export const CategoryPage = ({addToCart}) => {
     const handleAddToCart = (id) => {
         const selectedProduct = productData.find((product) => product.id === id);
         if (selectedProduct) {
-          addToCart(selectedProduct); 
+            addToCart(selectedProduct);
         }
-      };
+    };
 
     return (
         <>
-        <CategoryFilter/>
+            <CategoryFilter />
             <main className='products'>
                 <ul>
                     {

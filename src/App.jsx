@@ -58,7 +58,7 @@ function App() {
         let updatedQuantity = item.quantity;
         if (operation === '+') {
           updatedQuantity++;
-        } else if (operation === '-') {
+        } else if (operation === '-' && item.quantity > 1) {
           updatedQuantity--;
         }
         return { ...item, quantity: updatedQuantity };

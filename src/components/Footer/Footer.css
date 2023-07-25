@@ -1,17 +1,18 @@
 .footer-container {
     background-color: #333;
     color: #fff;
-    padding: 10px; /* Reducir el padding */
+    padding: 10px; 
     text-align: center;
     position: fixed;
     bottom: 0;
     left: 0;
     right: 0;
     z-index: 9999;
+    min-height: 80px;
   }
   
   .footer-container h2 {
-    font-size: 20px; /* Reducir el tamaño de fuente */
+    font-size: 20px; 
     font-weight: bold;
   }
   
@@ -20,6 +21,18 @@
   }
   
   .footer-container p {
-    font-size: 14px; /* Reducir el tamaño de fuente */
-    margin-bottom: 5px; /* Reducir el margen inferior */
+    font-size: 14px; 
+    margin-bottom: 5px; 
+  }
+  
+  /* responsive */
+  @media screen and (max-width: 480px) {
+    
+    .footer-container h2 {
+      font-size: 18px;
+    }
+  
+    .footer-container p {
+      font-size: 12px; /
+    }
   }
