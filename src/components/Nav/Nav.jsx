@@ -11,7 +11,7 @@ export function Nav( {cartItems}) {
 
         <header className='header'>
             <div className='logo'>
-            <Link className='li' to='/'> <img src="../../public/logo_ecommerce.jpg" alt="Logo-Ecommerce" /></Link>
+            <Link className='li' to='/'> <img src="/logo_ecommerce.jpg" alt="Logo-Ecommerce" /></Link>
             </div>
             <article className='carrito'>
                 <CartWidget cartItems={cartItems} />
