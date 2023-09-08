@@ -62,3 +62,26 @@
 .products button:hover {
   background-color: #ff9900;
 }
+@media (max-width: 767px) {
+  .products ul {
+      grid-template-columns: repeat(2, minmax(150px, 1fr)); /* Cambia a 2 columnas en pantallas pequeñas */
+      gap: 1rem; /* Reduce el espacio entre elementos */
+  }
+
+  .products li {
+      padding: 0.8rem; /* Ajusta el padding para un tamaño ligeramente más pequeño */
+  }
+
+  .products img {
+      aspect-ratio: 4/3; /* Cambia la relación de aspecto para un tamaño más pequeño */
+  }
+
+  .products .price {
+      font-size: 1rem; /* Reduce el tamaño de fuente del precio */
+  }
+
+  .products button {
+      font-size: 1rem; /* Reduce el tamaño de fuente del botón */
+      padding: 0.4em 0.8em; /* Ajusta el padding del botón */
+  }
+}

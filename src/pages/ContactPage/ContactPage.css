@@ -73,3 +73,11 @@
 .contact-container > * {
   margin-bottom: 20px;
 }
+.sep{
+  height: 40vh;
+}
+@media ((min-width: 768px)) {
+  .sep{
+    height: 39vh;
+  }
+}

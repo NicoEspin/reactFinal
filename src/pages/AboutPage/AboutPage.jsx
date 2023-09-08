@@ -8,7 +8,7 @@ export const AboutPage = () => {
     <div className='about-container'>
       <h2 className='section-heading'>Acerca de Nuestra Tienda</h2>
       <div className='introduction'>
-        <img className='store-image' src='../../public/logo_ecommerce.jpg' alt='Nuestra Tienda' />
+        <img className='store-image' src='/logo_ecommerce.jpg' alt='Nuestra Tienda' />
         <p>Bienvenido a Nuestra Tienda, donde nos apasiona brindar productos de calidad y un excelente servicio al cliente. Desde nuestros modestos comienzos, hemos crecido hasta convertirnos en una referencia en la industria del comercio electrónico.</p>
       </div>
       <div className='history'>

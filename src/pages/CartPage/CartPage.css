@@ -5,6 +5,7 @@
   padding: 20px;
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
   padding-bottom: 100px;
+  margin-bottom: 60px;
 }
 
 .header-cart {
@@ -157,6 +158,7 @@
   background-color: #333;
   border-radius: 8px;
   padding: 20px;
+  margin-bottom: auto;
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
 }
 
@@ -172,6 +174,9 @@
   color: #bbb;
   margin-bottom: 20px;
 }
+.empty{
+  margin-bottom: 450px;
+  }
 
 .btn-tienda {
   background-color: #ff8000;
@@ -217,4 +222,55 @@
 }
 .cart-img :hover{
   color: #000;
+}
+@media (max-width: 767px) {
+  .cart {
+      padding-bottom: 20px; /* Reduce el padding inferior en pantallas pequeñas */
+  }
+
+  .cart-item {
+      padding: 5px; /* Ajusta el padding de los elementos del carrito en pantallas pequeñas */
+      margin-bottom: 10px; /* Reduce el margen inferior de los elementos del carrito en pantallas pequeñas */
+  }
+
+  .item-title {
+      font-size: 16px; /* Reduce el tamaño de fuente del título del producto */
+      margin-bottom: 3px; /* Reduce el margen inferior del título del producto */
+  }
+
+  .item-price {
+      font-size: 14px; /* Reduce el tamaño de fuente del precio del producto */
+      margin-bottom: 3px; /* Reduce el margen inferior del precio del producto */
+  }
+
+  .item-img {
+      width: 60px; /* Reduce el tamaño de la imagen del producto */
+      height: 60px;
+  }
+.empty{
+margin-bottom: 330px;
+}
+  .quantity,
+  .action-circle,
+  .btn-compra,
+  .btn-vaciar-compra {
+      font-size: 14px; /* Reduce el tamaño de fuente de los botones y círculos */
+      padding: 4px 8px; /* Ajusta el padding de los botones y círculos */
+  }
+
+  .quantity {
+      width: 24px; /* Ajusta el tamaño del círculo de cantidad */
+      height: 24px;
+      font-weight: bold; /* Añade peso a la fuente del número de cantidad */
+  }
+
+  .action-circle {
+      width: 24px; /* Ajusta el tamaño del círculo de acción */
+      height: 24px;
+      font-size: 12px; /* Reduce el tamaño de fuente del icono de acción */
+  }
+
+  .btn-vaciar-compra {
+      margin-left: 10px; /* Reduce el margen izquierdo del botón de vaciar compra */
+  }
 }

@@ -56,3 +56,21 @@
  .header .nav-links a:hover{
      color: #000000;
  }
+@media (max-width: 768px) {
+    .header {
+        padding: 10px;
+    }
+
+    .header .carrito {
+        margin: 10px auto;
+    }
+
+    .header .logo {
+        text-align: center;
+        margin: 10px auto;
+    }
+
+    .header .logo img {
+        height: 50px;
+    }
+}

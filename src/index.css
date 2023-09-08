@@ -27,3 +27,6 @@ transition: .3s;
 button{
   transition: active .3s;
 }
+a{
+  text-decoration: none;
+}
